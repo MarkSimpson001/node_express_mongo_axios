@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <h2>Search</h2>
+  <% include head.ejs %>
+  <body>
+    <form action="/search" method="POST">
+      <input
+        type="text"
+        name="last_name"
+        id="last_name"
+        placeholder="last name"
+        class="search"
+      />
+      <input
+        type="text"
+        name="first_name"
+        id="first_name"
+        placeholder="first name"
+        class="search"
+      />
+      <input
+        type="text"
+        name="email"
+        id="email"
+        placeholder="email"
+        class="search"
+      />
+      <button class="search-btn" type="submit">Submit</button>
+    </form>
+  </body>
+</html>

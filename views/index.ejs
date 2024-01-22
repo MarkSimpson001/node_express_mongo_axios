@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <% include head.ejs %>
+  <body>
+    <h1>Hello World</h1>
+    <h3>Students:</h3>
+      <%students.map((student) => { %>
+      <div class="m-2">
+      <a href="/studentDetail/<%=student._id%>"><%=student.first_name%> <%=student.last_name%></a>
+      <br>
+      <%=student.email%>
+
+        <form action="localhost:3000/delete/<%=student._id%>"> <button type="submit">Delete</button> </form>
+        <form action="localhost:3000/edit/<%=student._id%>"> <button class="my-3 btn-success" type="submit">Edit</button> </form>
+        <br><br>
+      
+      <%});%>
+    </div>
+  </body>
+</html>

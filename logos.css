@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(184, 201, 156);
+    width: 100%;
+}
+
+.icons {
+    display: block;
+}
+div.top {
+    height: 50px;
+    background-color: rgb(91, 131, 28);
+    width: 100%;
+}
+
+div.bottom {
+    height: 50px;
+    background-color: rgb(91, 131, 28);
+    margin-top: -100px;
+}
+
+div.node {
+    height: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+img.node-icon {
+    height: 600px;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+}
+
+div.mid-icons {
+    height: 200px;
+}
+
+img.mongodb-icon {
+    margin-top: -300px;
+    margin-left: 170px;
+    height: 500px;
+    width: 400px;
+    display: block;
+    float: left;
+}
+
+img.express-icon {
+    margin-top: -125px;
+    margin-left: 200px;
+    height: 200px;
+    width: 400px;
+    display: block;
+    float: left;
+}
+
+.class-module {
+    text-align: center;
+}

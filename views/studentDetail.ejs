@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <% include head.ejs %>
+<body>
+    <h1>Hello World</h1>
+    <h3>Student:</h3>
+    <ul>
+        <%students.map((student) => { %>
+            <li>First Name: <%=student.first_name%></li>
+            <li>Last Name: <%=student.last_name%></li>
+            <li>Email: <%=student.email%></li>
+            <br>
+        <%});%>
+    </ul>
+</body>
+</html>
